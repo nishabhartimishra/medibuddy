@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction Result</title>
+</head>
+<body>
+    <h1>Diabetes Prediction Result</h1>
+    {% if pred == 1 %}
+        <p>The model predicts that the individual has diabetes.</p>
+        <p>Here are some tips to manage diabetes:</p>
+        <ul>
+            <li>Eat a balanced diet rich in fruits, vegetables, and whole grains.</li>
+            <li>Exercise regularly to help control blood sugar levels.</li>
+            <li>Monitor blood sugar levels regularly and follow your healthcare provider's advice.</li>
+            <li>Take prescribed medications as directed.</li>
+            <li>Stay hydrated and avoid sugary drinks.</li>
+        </ul>
+    {% else %}
+        <p>The model predicts that the individual does not have diabetes.</p>
+        <p>Keep up the good work! Here's a motivating remark:</p>
+        <p>"Congratulations! Your healthy lifestyle choices are paying off. Keep striving for wellness!"</p>
+    {% endif %}
+</body>
+</html>
