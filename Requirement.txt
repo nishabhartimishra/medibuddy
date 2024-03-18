@@ -1,1 +1,6 @@
-Python 3.8
+Python 
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
